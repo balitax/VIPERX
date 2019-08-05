@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Module Name :</string>
+			<key>Description</key>
+			<string>The name of the VIPERX Module to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>MyModel</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Interface Type :</string>
+			<key>Description</key>
+			<string>The type of interface to use</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>storyboard</string>
+			<key>Values</key>
+			<array>
+				<string>storyboard</string>
+				<string>xib</string>
+				<string>custom</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
