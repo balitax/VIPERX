@@ -11,6 +11,10 @@ Use the install script.
 
 ```sudo swift install.swift```
 
+## Sample Project
+
+Viper News, https://github.com/balitax/Viper-News
+
 ## 🤖 Authors
 
 Agus Cahyono, https://www.linkedin.com/in/cahyocode
