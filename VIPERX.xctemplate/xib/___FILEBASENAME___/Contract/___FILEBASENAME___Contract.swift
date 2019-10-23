@@ -9,7 +9,7 @@ protocol ___VARIABLE_productName:identifier___View: IndicateTableView {
 
 protocol ___VARIABLE_productName:identifier___Presentation: class {
     // TODO: Declare presentation methods
-    var view: ___VARIABLE_productName:identifier___View? { get set }
+    var view: ___VARIABLE_productName:identifier___View! { get set }
     var interactor: ___VARIABLE_productName:identifier___UseCase! { get set }
     var router: ___VARIABLE_productName:identifier___Wireframe! { get set }
     
